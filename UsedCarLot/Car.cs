@@ -24,6 +24,9 @@ namespace UsedCarLot
         }
 
         //method
-
+        public override string ToString()
+        {
+            return $"{Year}\t{Make}\t{Model}\t${Price}";
+        }
     }
 }
