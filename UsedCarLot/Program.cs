@@ -13,12 +13,14 @@ List<Car> listCar = new List<Car>
     new UsedCar($"Honda", "accord", 2008, 2200m, 160500)
 };
 
-foreach (Car c in listCar) 
-{
-    Console.WriteLine(c);
-}
 
-Console.WriteLine("Would ");
+
+    Console.WriteLine("\nSelect a car from the list:");
+    listCar.ForEach (c => Console.WriteLine (c));
+    
+
+   
+
 
 
 
