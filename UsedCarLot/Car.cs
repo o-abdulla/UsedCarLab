@@ -22,6 +22,13 @@ namespace UsedCarLot
             Year = _year;
             Price = _price;
         }
+        public Car()
+        {
+            Make = "Cardboard";
+            Model = "b0xx";
+            Year = DateTime.Now.Year;
+            Price = .50m;
+        }
 
         //method
         public override string ToString()
